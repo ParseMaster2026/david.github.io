@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的第一个博客</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5rem;
+        }
+        .content {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>✨ 欢迎来到我的博客</h1>
+        <p>这是完全通过 HTML 构建的静态网站</p>
+    </header>
+    
+    <div class="content">
+        <h2>为什么选择纯 HTML？</h2>
+        <ul>
+            <li>✅ 无需复杂配置</li>
+            <li>✅ 部署速度极快（2分钟内生效）</li>
+            <li>✅ 100% 兼容 GitHub Pages</li>
+            <li>✅ 无 Jekyll 依赖问题</li>
+        </ul>
+        
+        <h2>下一步计划</h2>
+        <p>你可以逐步添加：</p>
+        <ul>
+            <li>更多 HTML 页面（about.html, contact.html）</li>
+            <li>CSS 样式美化</li>
+            <li>JavaScript 交互功能</li>
+        </ul>
+    </div>
+    
+    <footer>
+        <p>© 2024 我的博客 | 由 GitHub Pages 提供支持</p>
+    </footer>
+</body>
+</html>
